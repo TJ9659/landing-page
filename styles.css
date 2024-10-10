@@ -113,14 +113,15 @@ img{
 
 .images{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
     margin-top: 32px;
+    flex-wrap: wrap;
 }
 
 .images img{
-    width:  100px;
-    height: 100px;
+    width:  200px;
+    height: 200px;
     object-fit: cover;
     border: 2px solid darkgrey;
     border-radius: 8px;
@@ -132,7 +133,6 @@ img{
     gap: 16px;
     align-items: center;
     text-align: center;
-    justify-content: space-between;
     width: 25%;
 }
 
@@ -141,7 +141,7 @@ img{
     background-color: #a5a9b1;
     padding: 48px;
     flex-direction: column;
-
+    
     
 }
 
@@ -177,11 +177,14 @@ img{
 }
 
 .title-text{
-    color: white;
-    font-weight: 400;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
 }
 
 .action-text{
+    
     color: #a5a9b1;
 }
 
